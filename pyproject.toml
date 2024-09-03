@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "27-parallel-image"
+version = "0.1.0"
+description = ""
+authors = ["Pietro Tanure <pietro.tanure-onnis@ensta-paris.fr>"]
+readme = "README.md"
+packages = [{ include = "27_parallel_image" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "*"
+pillow = "^10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
